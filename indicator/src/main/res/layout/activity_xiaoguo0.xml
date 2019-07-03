@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".xiaoguo.Xiaoguo0Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ViewPager" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="40dp" />
+
+    <!--app:spi_looped="true"   加上这个之后 第一个和最后一个 不靠边-->
+    <!--spi_visibleDotCount 必须是奇数-->
+    <com.as.indicator.other_library.View0.ScrollingPagerIndicator
+        android:id="@+id/spi"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_gravity="center"
+        app:spi_dotColor="#C5BEBE"
+        app:spi_dotSelectedColor="#f00"
+        app:spi_dotSelectedSize="20dp"
+        app:spi_dotSize="16dp"
+        app:spi_visibleDotCount="9" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="RecyclerView" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp" />
+
+    <!--app:spi_looped="true"   加上这个之后 第一个和最后一个 不靠边-->
+    <com.as.indicator.other_library.View0.ScrollingPagerIndicator
+        android:id="@+id/spi1"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+
+        app:spi_dotColor="#C5BEBE"
+        app:spi_dotSelectedColor="#f00ff0"
+        app:spi_dotSelectedSize="20dp"
+        app:spi_dotSize="16dp"
+        app:spi_looped="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="RecyclerView" />
+
+</LinearLayout>
