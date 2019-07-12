@@ -1,9 +1,9 @@
 package com.as.indicator.xiaoguo;
 
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import com.as.indicator.R;
 import com.as.indicator.adapter.MyPageAdapter;

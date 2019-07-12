@@ -1,6 +1,7 @@
 package com.as.indicator.adapter;
 
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 import com.as.indicator.R;
 import com.chad.library.adapter.base.BaseQuickAdapter;

@@ -1,9 +1,9 @@
 package com.as.indicator.xiaoguo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.as.indicator.R;
 import com.as.indicator.adapter.Adapter_image;

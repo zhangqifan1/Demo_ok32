@@ -1,6 +1,7 @@
 package com.as.indicator.other_library.View1.leochuan;
 
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * The implementation will snap the center of the target child view to the center of
