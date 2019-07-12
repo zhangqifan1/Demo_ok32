@@ -13,6 +13,7 @@ import java.util.List;
  * -----------------------------
  * Created by zqf on 2019/7/1.
  * ---------------------------
+ * 测试更新
  */
 public class Adapter0 extends BaseQuickAdapter<String, BaseViewHolder> {
 
